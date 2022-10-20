@@ -27,3 +27,7 @@ Instructions:
     radius = 500 (Int value in meters),
     sort_by = distance.
     limit = 15
+
+
+curl --location --request GET 'https://api.yelp.com/v3/businesses/search?term=restaurants&latitude=37.786882&longitude=-122.399972&sort_by=distance&limit=60&radius=500' \
+--header 'Authorization: Bearer XPFgzKwZGK1yqRxHi0d5xsARFOLpXIvccQj5jekqTnysweGyoIfVUHcH2tPfGq5Oc9kwKHPkcOjk2d1Xobn7aTjOFeop8x41IUfVvg2Y27KiINjYPADcE7Qza0RkX3Yx'
