@@ -1,0 +1,2 @@
+rootProject.name = "Skycore"
+include ':app'
